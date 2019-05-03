@@ -45,8 +45,8 @@ class MainPage extends Component {
                    <li className="page-item"><a className="page-link" href="#" onClick={() => {this.onPageChange(0)}}>{'<<<'}</a></li>
                    {pages.map(number => (
                   <li className="page-item"><a className="page-link" href="#" onClick={() => {this.onPageChange(number)}} >{number}</a></li>
-                  ))}
-                  <li className="page-item"><a className="page-link" href="#"onClick={() => {this.onPageChange(pages.length - 1)}}>{'>>>'}</a></li>
+                   ))}
+                  <li className="page-item"><a className="page-link" href="#" onClick={() => {this.onPageChange(pages.length - 1)}}>{'>>>'}</a></li>
                 </ul>       
         </div>       
     </div>     
